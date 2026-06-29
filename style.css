@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../../resource/43.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+nav {
+    background: #b81c22;
+    display: flex;
+    gap: 30px;
+    padding: 12px 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.theme-wrap {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.theme-img {
+    width: 220px;
+}
+
+.card-group-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 40px;
+    margin: 0 20px 20px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+}
+
+.card-item {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card-item:hover {
+    transform: translateY(-6px);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.card-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 18px;
+}
+
+.section-title {
+    text-align: center;
+    color: #b81c22;
+    margin: 20px 0;
+}
+
+.container {
+    padding: 40px;
+    max-width: 1500px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #b81c22;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.block {
+    margin-bottom: 60px;
+}
+
+.block h2 {
+    color: #b81c22;
+    margin-bottom: 20px;
+    border-left: 5px solid #b81c22;
+    padding-left: 12px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.img-box {
+    width: 48%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.img-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px #eee;
+}
+
+.text-box {
+    width: 52%;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.text-box p {
+    margin-bottom: 12px;
+}
+
+h1, h2, h3, h4, p {
+    opacity: 1;
+}
